@@ -1,0 +1,14 @@
+server:
+  port: 3693
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:3692/eureka/,http://localhost:3694/eureka/
+spring:
+  application:
+    name: client
+rabbitmq:
+  host: www.qvyue.cn
+  port: 5672
+  username: guest
+  password: guest
