@@ -1,2 +1,16 @@
-env:
-  env
+server:
+  port: 3697
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          username: 1904025560@qq.com
+          password: 15310072820*liu
+          uri: https://github.com/Glory3/springcloud-config-test.git
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:3694/eureka/,http://localhost:3692/eureka/
